@@ -1,6 +1,40 @@
+# --- Python ---
+# Virtual Environment
 venv/
-__pycache__/
 *.pyc
+__pycache__/
+*.egg-info/
+pip-wheel-metadata/
+*.env
+
+# --- Secrets ---
+# IMPORTANT: Never commit credentials!
+.keys/
+
+# --- Large Data Files ---
+# Ignore specific subdirectories within data that likely contain large/raw files
+data/raw/
+data/processed/
+data/prepared/
+# NOTE: If you have small, essential config/metadata files directly in 'data/'
+# they WILL be included. If the dataset JSONs are in data/raw/, they will be
+# ignored, reinforcing the need for the download link in the README.
+
+# --- Large Model Files ---
+# Ignore the fine-tuned models directory
+models/
+
+# --- Generated Output Files / Logs ---
+test_output_*.png
+*.log
+
+# --- Other Test/Temporary Files ---
+test_receipt.jpg
+
+# --- OS-specific ---
 .DS_Store
-.ipynb_checkpoints/
-.env
+Thumbs.db
+
+# --- IDE/Editor specific ---
+.vscode/
+.idea/
