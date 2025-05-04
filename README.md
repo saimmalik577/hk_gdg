@@ -1,6 +1,6 @@
 # EdTech Smart Document Assistant (MVP) - GDG Hackathon Submission
 
-**Team:** EdTech Smart Document Assistant (MVP)  *(You can choose a more creative team name if you like!)*
+**Team:** NIGHT SHADOW
 
 ## 🚀 Project Goal
 
