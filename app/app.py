@@ -347,7 +347,7 @@ def predict_answer(doc_file_obj, question_str):
 about_text = """
 ## 🚀 Project: EdTech Smart Document Assistant (MVP)
 
-**Team:** [**Replace with Your Team Name Here!**]
+**Team:** [** NIGHT SHADOW **]
 
 **Goal:** To create a Minimum Viable Product demonstrating how AI can help students and educators quickly find specific information within educational documents.
 
@@ -373,13 +373,13 @@ This application combines several powerful technologies:
 6.  **Visualization:** The final bounding box (in pixel coordinates) is drawn onto a copy of the input image using the Pillow library.
 7.  **Interface:** **Gradio** provides the interactive web user interface, allowing easy file uploads, question input, and display of the text answer and highlighted image.
 
-**Code:** [**Optional: Add Link to your GitHub Repo Here!**]
+**Code:** [**https://github.com/saimmalik577/hk_gdg.git**]
 """
 
 # --- Define Example(s) ---
 # Assumes app.py runs from GDG_HACKATHON root
 example_list = [
-    ["assets/sample_doc.jpg", "What is the equity owner type?"]
+    ["assets/sample_doc.jpg", "What is the equity owner name?"]
     # Add more examples relevant to EdTech if available:
     # ["example_docs/science_paper.png", "What method was used for analysis?"]
 ]
