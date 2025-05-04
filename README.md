@@ -28,8 +28,8 @@ To create a Minimum Viable Product demonstrating how AI (LayoutLMv3 fine-tuned f
 
 1.  **Clone Repository:**
     ```bash
-    git clone <YOUR_GITHUB_REPO_URL.git>
-    cd gdg_hackathon # Or your repository name
+    git clone <https://github.com/saimmalik577/hk_gdg.git>
+    cd gdg_hackathon # hk_gdg
     ```
 
 2.  **Create Virtual Environment & Activate (Recommended):**
